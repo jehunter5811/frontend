@@ -103,6 +103,14 @@ const TopNavi = props => {
           >
             investment
           </StyledLink>
+          <StyledLink
+            to="/add-remove"
+            onClick={() =>
+              link({ position: "navbar", to: "add-remove", type: "text" })
+            }
+          >
+            add/remove
+          </StyledLink>
         </MobileNone>
         <MobileNone>
           <StyledLink to="/discord">discord</StyledLink>
